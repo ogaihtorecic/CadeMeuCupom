@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">PortaCupom</string>
+	<string name="desc">Description</string>
+	<string name="exp_date">Expiration</string>
+	<string name="site">Website</string>
+	<string name="coupon_codes">Codes</string>
+	<string name="new_offer">New Offer</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+	<string name="site_prompt">Choose an website</string>
+	<string name="view_coupon">View Coupon</string>
+	<string name="pending_coupons">Pending</string>
+	<string name="used_coupons">Used</string>
+	<string name="expired_coupons">Expired</string>
+	<string name="coupons_desc">coupons</string>
+	<string name="coupon_desc">coupon</string>
+	<string name="new_offer_desc">Create a new offer</string>
+	<string name="days">day(s)</string>
+	<string name="view_offer">View Offer</string>
+	<string name="remove_offer">Remove Offer</string>
+	<string name="move_offer">Move to Expired</string>
+	<string name="expiration_date">Expiration:</string>
+	<string name="new_coupon">New Code</string>
+	<string name="coupon_marked_as_pending">The coupon has been marked as pending</string>
+	<string name="coupon_marked_as_used">The coupon has been marked as used</string>
+	<string name="coupon_marked_as_expired">The coupon has been marked as expired</string>
+	<string name="default_coupon_desc">Undefined Coupon</string>
+	<string name="coupon_already_expired">Coupon already marked as expired</string>
+	<string name="pending_offers">Pending Offers</string>
+	<string name="used_offers">Used Offers</string>
+	<string name="expired_offers">Expired Offers</string>
+	<string name="request_confirmation">Are you sure?</string>
+	<string name="request_exit_confirmation">Are you sure you want to exit application?</string>
+	<string name="confirm">Yes</string>
+	<string name="deny">No</string>
+	<string name="offer_removed_message">The offer has been removed</string>
+	<string name="offer_moved_message">All pending coupons in this offer have been moved to expired</string>
+	<string name="notifications_enabled">Notifications Enabled</string>
+	<string name="notifications_enabled_desc">Shows a reminder in notifications bar when an offer is to expire</string>
+	<string name="settings">Settings</string>
+	<string name="settings_changed">Settings Changed</string>
+	<string name="notification_days_desc">Repeat</string>
+	<string name="ok">OK</string>
+	<string name="notification_desc">There are offers that expire soon</string>
+	<string name="notification_title">Expiring offers</string>
+	<string name="alarm_time_desc">Alarm Time</string>
+	<string name="before">before offer expiration</string>
+	<string name="only">At expiration date only</string>
+	<string name="edit_offer">Edit Offer</string>
+	<string name="no_coupons">No Coupons =(</string>
+</resources>

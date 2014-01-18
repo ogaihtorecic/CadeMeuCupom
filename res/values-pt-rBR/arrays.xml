@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="sites">
+		<item>MegaOFFerta</item>
+		<item>Groupon</item>
+		<item>Peixeurbano</item>
+		<item>Imperdivel</item>
+		<item>TopCupom</item>
+		<item>Coubiz</item>
+		<item>AcheiOLugar</item>
+		<item>TambaquiUrbano</item>
+		<item>Botomaluco</item>
+		<item>Outro</item>
+	</string-array>
+	
+	<string-array name="days">
+		<item>7 dias</item>
+		<item>3 dias</item>
+		<item>1 dia</item>
+	</string-array>
+	
+</resources>

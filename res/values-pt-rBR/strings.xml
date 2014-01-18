@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PortaCupom</string>
+    <string name="desc">Descrição</string>
+    <string name="exp_date">Validade</string>
+    <string name="site">Site</string>
+    <string name="coupon_codes">Códigos</string>
+    <string name="new_offer">Nova Oferta</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="site_prompt">Escolha um Site</string>
+    <string name="view_coupon">Visualizar Cupom</string>
+    <string name="pending_coupons">Pendentes</string>
+    <string name="used_coupons">Usados</string>
+    <string name="expired_coupons">Vencidos</string>
+    <string name="coupons_desc">cupons</string>
+    <string name="coupon_desc">cupom</string>
+    <string name="new_offer_desc">Cadastre uma nova oferta</string>
+    <string name="days">dia(s)</string>
+    <string name="view_offer">Ver Oferta</string>
+    <string name="remove_offer">Remover Oferta</string>
+    <string name="move_offer">Mover para Vencidos</string>
+    <string name="expiration_date">Validade:</string>
+    <string name="new_coupon">Novo Código</string>
+    <string name="coupon_marked_as_pending">Cupom marcado como pendente</string>
+    <string name="coupon_marked_as_used">Cupom marcado como usado</string>
+    <string name="coupon_marked_as_expired">Cupom marcado como expirado</string>
+    <string name="default_coupon_desc">Cupom Indefinido</string>
+    <string name="coupon_already_expired">Cupom já marcado como expirado</string>
+    <string name="pending_offers">Ofertas Pendentes</string>
+    <string name="used_offers">Ofertas Usadas</string>
+    <string name="expired_offers">Ofertas Vencidas</string>
+    <string name="request_confirmation">Tem certeza?</string>
+    <string name="request_exit_confirmation">Tem certeza que deseja sair da aplicação?</string>
+    <string name="confirm">Sim</string>
+    <string name="deny">Não</string>
+    <string name="offer_removed_message">A oferta foi removida</string>
+    <string name="offer_moved_message">Todos os cupons pendentes desta oferta foram movidos para vencidos</string>
+    <string name="notifications_enabled">Ativar Notificações</string>
+	<string name="notifications_enabled_desc">Mostra lembrete na barra de notificações quando uma oferta está para expirar</string>
+	<string name="settings">Configurações</string>
+	<string name="settings_changed">Configurações Alteradas</string>
+	<string name="notification_days_desc">Repetir</string>
+	<string name="ok">OK</string>
+	<string name="notification_desc">Existem ofertas expirando em breve</string>
+	<string name="notification_title">Ofertas expirando</string>
+	<string name="alarm_time_desc">Hora do Alarme</string>
+	<string name="before">antes do vencimento de uma oferta</string>
+	<string name="only">Apenas no dia do vencimento</string>
+	<string name="edit_offer">Editar Oferta</string>
+	<string name="no_coupons">Sem Cupons =(</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="horizontal" android:baselineAligned="true">
+
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:layout_width="0dip" android:layout_height="match_parent"
+		android:orientation="vertical" android:layout_weight="20">
+
+		<TextView android:id="@+id/exp_days" android:text="55"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="30sp" android:textStyle="bold"
+			android:layout_gravity="center" />
+
+		<TextView android:id="@+id/days_desc" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+			android:text="@string/days" />
+
+	</LinearLayout>
+
+	<View android:layout_width="1dip" android:layout_height="fill_parent"
+		android:background="?android:attr/listDivider"
+		android:layout_marginTop="4dip" android:layout_marginBottom="4dip" />
+
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="0dip" android:layout_weight="80"
+		android:layout_height="match_parent" android:orientation="vertical"
+		android:layout_gravity="center">
+
+		<TextView android:id="@+id/desc" android:text="Coupon Desc ..."
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="20sp" android:layout_marginLeft="7dip"
+			android:layout_marginTop="2dip" />
+
+		<TextView android:id="@+id/site" android:text="Groupon.com"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="12sp" android:textStyle="bold"
+			android:layout_marginLeft="7dip" />
+
+		<TextView android:text="5 coupons" android:id="@+id/num_coupons"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="12sp" android:layout_marginLeft="7dip" />
+
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/view_offer_item" android:title="@string/view_offer" />
+
+	<item android:id="@+id/remove_offer_item" android:title="@string/remove_offer" />
+	
+	<item android:id="@+id/edit_offer_item" android:title="@string/edit_offer" />
+
+	<item android:id="@+id/move_offer_item" android:title="@string/move_offer" android:visible="false"/>
+
+</menu>

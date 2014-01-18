@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="7" android:versionName="2.2.2" package="br.com.sopixel.portacupom">
+	<uses-sdk android:minSdkVersion="4" />
+
+	<uses-permission android:name="android.permission.VIBRATE" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:theme="@android:style/Theme.NoTitleBar">
+		<activity android:label="@string/app_name" android:name=".activity.SplashScreenActivity"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".activity.TabsActivity" />
+		<activity android:name=".activity.MainActivity" />
+		<activity android:name=".activity.AbstractNewCouponActivity" />
+		<activity android:label="@string/new_offer" android:name=".activity.NewCouponActivity" />
+		<activity android:label="@string/edit_offer" android:name=".activity.EditCouponActivity" />
+		<activity android:label="@string/view_coupon" android:name=".activity.ViewCouponActivity" />
+		<activity android:label="@string/settings" android:name=".activity.SettingsActivity" />
+
+		<receiver android:name=".broadcastreceiver.CheckerExpiration">
+			<intent-filter>
+				<action android:name="EXECUTE_ALARM" />
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+
+		<receiver android:name=".widget.CouponAppWidgetProvider">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider" android:resource="@xml/coupon_appwidget_info" />
+		</receiver>
+		
+		<service android:name=".widget.CouponAppWidgetProvider$UpdateService" />
+
+	</application>
+</manifest>

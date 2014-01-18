@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="sites">
+	
+		<item>Groupon</item>
+		<item>LivingSocial</item>
+		<item>Tippr</item>
+		<item>Heartsy.me</item>
+		<item>Jump On It</item>
+		<item>FamilyFinds</item>
+		<item>BuyWithMe</item>
+		<item>Lifebooker</item>
+		<item>Other</item>
+	</string-array>
+	
+	<string-array name="days">
+		<item>7 days</item>
+		<item>3 days</item>
+		<item>1 day</item>
+	</string-array>
+	
+</resources>

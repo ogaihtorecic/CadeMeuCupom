@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:text="@string/notification_days_desc"
+		android:layout_margin="5dip" android:textStyle="bold" android:textSize="20sp"/>
+
+	<TextView android:layout_height="wrap_content" android:id="@+id/n_days_desc"
+		android:layout_width="wrap_content" android:text="7, 3 e 1 dia antes da expiração"
+		android:layout_marginLeft="5dip" android:layout_marginBottom="5dip" />
+
+</LinearLayout>

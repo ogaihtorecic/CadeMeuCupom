@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1"
+		android:layout_height="wrap_content">
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="vertical">
+
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/descricaoText"
+				android:text="@string/desc" android:layout_marginLeft="5dip"
+				android:textSize="20sp" />
+
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/descricaoEdit"
+				android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:maxLength="100"/>
+
+			<View android:layout_width="fill_parent" android:layout_height="1dip"
+				android:background="?android:attr/listDivider"
+				android:layout_margin="5dip" />
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal"
+				android:layout_margin="5dip">
+
+				<LinearLayout android:layout_width="0dip"
+					android:layout_height="wrap_content" android:orientation="vertical"
+					android:layout_weight="90">
+
+					<TextView android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:id="@+id/validadeText"
+						android:text="@string/exp_date" android:textSize="20sp" />
+
+					<Button android:id="@+id/expDateButton"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:textSize="15dp" android:text="8/5/2011" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<View android:layout_width="fill_parent" android:layout_height="1dip"
+				android:background="?android:attr/listDivider"
+				android:layout_margin="5dip" />
+
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/siteText"
+				android:text="@string/site" android:layout_marginLeft="5dip"
+				android:textSize="20sp" />
+
+			<Spinner android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/siteSpinner"
+				android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+				android:drawSelectorOnTop="true" android:prompt="@string/site_prompt" />
+
+			<View android:layout_width="fill_parent" android:layout_height="1dip"
+				android:background="?android:attr/listDivider"
+				android:layout_margin="5dip" />
+
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/couponCodesText"
+				android:text="@string/coupon_codes" android:layout_marginLeft="5dip"
+				android:textSize="20sp" />
+
+			<LinearLayout android:id="@+id/manycouponslayout"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:orientation="horizontal">
+
+					<TextView android:layout_height="wrap_content"
+						android:layout_width="0dip" android:layout_weight="85"
+						android:gravity="right" android:layout_gravity="center_vertical"
+						android:text="@string/new_coupon" android:textSize="20sp"
+						android:layout_marginRight="5dip" />
+
+					<ImageButton android:id="@+id/addnew"
+						android:src="@android:drawable/ic_input_add"
+						android:layout_height="wrap_content" android:layout_width="0dip"
+						android:layout_weight="15" android:layout_marginRight="5dip" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1" android:layout_width="match_parent"
+				android:orientation="horizontal" android:background="#ccc">
+
+				<Button android:layout_width="0dip" android:layout_height="wrap_content"
+					android:text="@string/save" android:id="@+id/okBtn"
+					android:layout_weight="1" android:layout_marginLeft="5dip"
+					android:layout_marginBottom="5dip" android:layout_marginTop="5dip" />
+
+				<Button android:layout_width="0dip" android:layout_height="wrap_content"
+					android:text="@string/cancel" android:id="@+id/cancelButton"
+					android:layout_weight="1" android:layout_marginRight="5dip"
+					android:layout_marginBottom="5dip" android:layout_marginTop="5dip" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

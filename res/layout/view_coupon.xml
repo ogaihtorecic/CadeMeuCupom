@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+
+		<TextView android:text="Tratamento de beleza no salão de beleza"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:layout_gravity="left" android:id="@+id/coupon_desc"
+			android:textSize="25sp" android:textStyle="bold"
+			android:layout_marginLeft="5dip" android:layout_marginRight="5dip" />
+
+		<TextView android:text="MegaOFFerta" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/coupon_site"
+			android:textSize="15sp" android:textStyle="bold"
+			android:layout_marginLeft="5dip" />
+
+		<TextView android:text="Expira em 30 dias"
+			android:layout_height="wrap_content" android:id="@+id/coupon_exp_desc"
+			android:layout_width="match_parent" android:layout_marginLeft="5dip" />
+
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:gravity="center">
+
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/ic_pending_mini" />
+
+			<TextView android:text="(5)" android:layout_height="wrap_content"
+				android:id="@+id/coupons_pending" android:layout_width="wrap_content"
+				android:textSize="20sp" />
+
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/ic_used_mini"
+				android:layout_marginLeft="5dip" />
+
+			<TextView android:text="(2)" android:layout_height="wrap_content"
+				android:id="@+id/coupons_used" android:layout_width="wrap_content"
+				android:textSize="20sp" android:layout_marginRight="5dip" />
+
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/ic_expired_mini" />
+
+			<TextView android:text="(1)" android:layout_height="wrap_content"
+				android:id="@+id/coupons_expired" android:layout_width="wrap_content"
+				android:textSize="20sp" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<ListView android:layout_height="match_parent" android:id="@+id/coupon_code_list"
+		android:layout_width="match_parent" />
+
+</LinearLayout>
